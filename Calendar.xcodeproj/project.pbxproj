@@ -15,7 +15,6 @@
 		CCE215202609C42200EDCC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE2151E2609C42200EDCC72 /* LaunchScreen.storyboard */; };
 		CCE215292609C66700EDCC72 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE215282609C66700EDCC72 /* CalendarModel.swift */; };
 		CCE2152C2609C67700EDCC72 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE2152B2609C67700EDCC72 /* CalendarView.swift */; };
-		CCE21531260AC77600EDCC72 /* CalendarRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE21530260AC77600EDCC72 /* CalendarRow.swift */; };
 		CCE21536260B07B700EDCC72 /* CalendarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE21535260B07B700EDCC72 /* CalendarList.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		CCE215212609C42200EDCC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCE215282609C66700EDCC72 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		CCE2152B2609C67700EDCC72 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		CCE21530260AC77600EDCC72 /* CalendarRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarRow.swift; sourceTree = "<group>"; };
 		CCE21535260B07B700EDCC72 /* CalendarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +86,6 @@
 		CCE21534260B079C00EDCC72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CCE21530260AC77600EDCC72 /* CalendarRow.swift */,
 				CCE2152B2609C67700EDCC72 /* CalendarView.swift */,
 				CCE21535260B07B700EDCC72 /* CalendarList.swift */,
 			);
@@ -170,7 +167,6 @@
 				CCE215142609C41F00EDCC72 /* AppDelegate.swift in Sources */,
 				CCE215292609C66700EDCC72 /* CalendarModel.swift in Sources */,
 				CCE215162609C41F00EDCC72 /* SceneDelegate.swift in Sources */,
-				CCE21531260AC77600EDCC72 /* CalendarRow.swift in Sources */,
 				CCE215182609C41F00EDCC72 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
