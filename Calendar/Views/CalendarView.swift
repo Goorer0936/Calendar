@@ -50,9 +50,6 @@ struct CalendarView: View {
             }
         }
     }
-    func GetWeek(){
-        
-    }
     func NextMonth(){
         if self.month != 12{
             self.month += 1
