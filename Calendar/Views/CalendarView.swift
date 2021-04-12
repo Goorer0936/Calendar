@@ -28,7 +28,7 @@ struct CalendarView: View {
                                 .font(.system(size:10))
                         }
                     }
-                }.padding(.horizontal,10)
+                }
                 Spacer()
                 HStack {
                     Button(action: {

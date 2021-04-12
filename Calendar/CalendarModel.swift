@@ -12,6 +12,7 @@ class CalendarModel :ObservableObject {
     // うるう年判定(trueがうるう年)
     func LeapYear(year:Int) -> Bool {
         let result =  (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0 )) ? true : false
+        print(result)
         return result
     }
     
@@ -28,7 +29,7 @@ class CalendarModel :ObservableObject {
         }else{
             result  = (day + (26 * (month + 1))/10 + year + (year / 4) + (5 * (year / 100)) + ((year / 100)/4) + 5) % 7 as Int
         }
-         
+         print("\(result)")
         return result
     }
     

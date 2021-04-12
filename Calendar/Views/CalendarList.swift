@@ -25,7 +25,6 @@ struct CalendarList: View {
         self.days = days
         self.middleweek = (days - (7 - start)) / 7
         self.lastweeknumber = (days - (7 - start)) % 7
-        print("\(self.startdaynumber)")
     }
     var body: some View {
         // 1週
